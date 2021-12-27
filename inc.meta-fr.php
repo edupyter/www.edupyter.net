@@ -22,7 +22,7 @@
 <meta name="twitter:creator" content="@edupyter">
 <meta name="twitter:title" content="EDUPYTER | Environnement de développement pour l'enseignement et l'apprentissage de Python.">
 <meta name="twitter:description" content="Python+Jupyter+Thonny+...+Windows. Environnement de développement pour l'enseignement et l'apprentissage de Python. S'installe sur disque dur ou clé USB sans droits administrateur.">
-<meta name="twitter:image" content="https://www.portabledevapps.net/images/open-graph.png">
+<meta name="twitter:image" content="https://www.portabledevapps.net/images/open-graph-fr.png">
 
 <!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
