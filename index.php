@@ -56,7 +56,7 @@
 
 					<p class="mt-2">
 
-						<a href="https://github.com/edupyter/EDUPYTER39/releases/download/v1.0/EDUPYTER-39-1.0-setup.exe" class="btn btn-download btn-xs mt-2"><svg viewBox="0 0 512 512" version="1.1" width="16" height="16" aria-hidden="true"><path fill="#6c757d" d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z"></path></svg><sup class="ms-2 text-muted font-monospace" style="font-size:70%">1.0</sup></a><span class="text-monospace ml-2" style="font-size:60%;color:silver">74 Mo</span>
+						<a href="https://github.com/edupyter/EDUPYTER39/releases/download/v1.0/EDUPYTER-39-1.0-setup.exe" class="btn btn-download btn-xs mt-2"><svg viewBox="0 0 512 512" version="1.1" width="16" height="16" aria-hidden="true"><path fill="#6c757d" d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z"></path></svg><sup class="ms-2 text-muted font-monospace" style="font-size:70%">1.0</sup></a><span class="text-monospace ms-2" style="font-size:60%;color:silver">74 Mo</span>
 
 						<a href="https://github.com/edupyter/EDUPYTER39/discussions" target="_blank" class="ms-5 me-2" data-bs-toggle="tooltip" data-bs-placement="top" title="discussions"><svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill="#3674a9" d="M1.5 2.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v5.5a.25.25 0 01-.25.25h-3.5a.75.75 0 00-.53.22L3.5 11.44V9.25a.75.75 0 00-.75-.75h-1a.25.25 0 01-.25-.25v-5.5zM1.75 1A1.75 1.75 0 000 2.75v5.5C0 9.216.784 10 1.75 10H2v1.543a1.457 1.457 0 002.487 1.03L7.061 10h3.189A1.75 1.75 0 0012 8.25v-5.5A1.75 1.75 0 0010.25 1h-8.5zM14.5 4.75a.25.25 0 00-.25-.25h-.5a.75.75 0 110-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0114.25 12H14v1.543a1.457 1.457 0 01-2.487 1.03L9.22 12.28a.75.75 0 111.06-1.06l2.22 2.22v-2.19a.75.75 0 01.75-.75h1a.25.25 0 00.25-.25v-5.5z"></path></svg></a>
 
@@ -72,7 +72,7 @@
 
 					<p class="mt-2">
 
-						<a href="https://github.com/edupyter/EDUPYTER38/releases/download/v1.0/EDUPYTER-38-1.0-setup.exe" class="btn btn-download btn-xs mt-2"><svg viewBox="0 0 512 512" version="1.1" width="16" height="16" aria-hidden="true"><path fill="#6c757d" d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z"></path></svg><sup class="ms-2 text-muted font-monospace" style="font-size:70%">1.0</sup></a><span class="text-monospace ml-2" style="font-size:60%;color:silver">74 Mo</span>
+						<a href="https://github.com/edupyter/EDUPYTER38/releases/download/v1.0/EDUPYTER-38-1.0-setup.exe" class="btn btn-download btn-xs mt-2"><svg viewBox="0 0 512 512" version="1.1" width="16" height="16" aria-hidden="true"><path fill="#6c757d" d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z"></path></svg><sup class="ms-2 text-muted font-monospace" style="font-size:70%">1.0</sup></a><span class="text-monospace ms-2" style="font-size:60%;color:silver">74 Mo</span>
 
 						<a href="https://github.com/edupyter/EDUPYTER38/discussions" target="_blank" class="ms-5 me-2" data-bs-toggle="tooltip" data-bs-placement="top" title="discussions"><svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill="#3674a9" d="M1.5 2.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v5.5a.25.25 0 01-.25.25h-3.5a.75.75 0 00-.53.22L3.5 11.44V9.25a.75.75 0 00-.75-.75h-1a.25.25 0 01-.25-.25v-5.5zM1.75 1A1.75 1.75 0 000 2.75v5.5C0 9.216.784 10 1.75 10H2v1.543a1.457 1.457 0 002.487 1.03L7.061 10h3.189A1.75 1.75 0 0012 8.25v-5.5A1.75 1.75 0 0010.25 1h-8.5zM14.5 4.75a.25.25 0 00-.25-.25h-.5a.75.75 0 110-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0114.25 12H14v1.543a1.457 1.457 0 01-2.487 1.03L9.22 12.28a.75.75 0 111.06-1.06l2.22 2.22v-2.19a.75.75 0 01.75-.75h1a.25.25 0 00.25-.25v-5.5z"></path></svg></a>
 
@@ -97,10 +97,12 @@
 
 		<div class="container mt-5">
 			<div class="row">
+
 				<div class="col-md-6 offset-md-3">
 					<h4 class="font-monospace">Applications</h4>
 					<p class="font-monospace small text-muted">Python 3.9.9 / 3.8.10 - PIP 21.3.1 - JupyterLab 3.2.5 - Jupyter Notebook 6.4.6 - Thonny 3.3.14 - Console...</p>
 				</div>
+
 				<div class="col-md-2">
 					<a class="btn btn-doc btn-xs mt-2" href="https://edupyter.github.io/documentation/ajouter_app/" target="_blank" role="button">
 						<svg xmlns="http://www.w3.org/2000/svg" width="14" fill="currentColor" viewBox="0 0 448 512" role="img" class="me-2" style="float:left;">
@@ -109,6 +111,7 @@
 						<div style="margin-left:25px;">Comment ajouter une application</div>
 					</a>
 				</div>
+
 			</div>
 		</div>
 
@@ -217,7 +220,7 @@ wrapt                1.13.3
 					$bibliotheques = str_replace(array("\r\n","\n"),', ', trim($bibliotheques));
 					echo $bibliotheques;
 					?>
-				</p>
+					</p>
 				</div>
 
 				<div class="col-md-2">
@@ -228,7 +231,7 @@ wrapt                1.13.3
 						<div style="margin-left:25px;">Comment ajouter une bibliothèque</div>
 					</a>
 				</div>
-				
+
 			</div>
 		</div>
 
