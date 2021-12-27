@@ -83,6 +83,33 @@ a.twitter:hover {color: #7ac9ed;opacity: 1;}
     background-color: #34495e;
 }
 
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    font-size:75%;
+    background-color:#2ecc71;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 0.5rem 0.5rem;
+}
+
+.doc {
+    color:white
+}
+
+.doc:hover {
+    color:silver
+}
+
 /* ****************************************************************************
  INTRO
 **************************************************************************** */
@@ -117,11 +144,11 @@ a.twitter:hover {color: #7ac9ed;opacity: 1;}
 
 /* xs button */
 .btn-group-xs>.btn, .btn-xs {
-    padding: .4rem 2rem;
-    font-size: 1rem;
+    padding: .4rem .5rem;
+    font-size: 0.7rem;
     line-height: 1.2;
-    border-radius: .15rem;
-	margin-right: .2rem;
+    border-radius: .3rem;
+	margin-right: 0rem;
 }
 
 /* download button */
@@ -139,6 +166,28 @@ a.twitter:hover {color: #7ac9ed;opacity: 1;}
 }
 
 .btn-download:not(:disabled):not(.disabled).active, .btn-download:not(:disabled):not(.disabled):active, .show>.btn-download.dropdown-toggle {
+    color: #fff;
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+}
+
+/* doc button */
+.btn-doc {
+    color: #6c757d;
+    background-color: #f1f3f4;
+    background-image: none;
+    border-color: #f1f3f4;
+    text-align:left;
+    width:100%;
+}
+
+.btn-doc:hover {
+    color: #1a1a1a;
+    background-color: #e4e6e7;
+    border-color: #e4e6e7;
+}
+
+.btn-doc:not(:disabled):not(.disabled).active, .btn-doc:not(:disabled):not(.disabled):active, .show>.btn-doc.dropdown-toggle {
     color: #fff;
     background-color: #2c3e50;
     border-color: #2c3e50;

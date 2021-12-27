@@ -82,6 +82,14 @@
 
 				</div>
 
+				<div class="col-md-2">
+					<a class="btn btn-doc btn-xs mt-3" href="mailto:contact@edupyter.net" target="_blank" role="button">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" fill="currentColor" viewBox="0 0 512 512" role="img" class="me-2" style="float:left;">
+							<path fill="#27ae60" d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"></path>
+						</svg>
+						<div style="margin-left:25px;">Need another version? Make a request to contact@edupyter.net</div>
+					</a>
+				</div>
 
 			</div>
 
@@ -89,10 +97,21 @@
 
 		<div class="container mt-5">
 			<div class="row">
+
 				<div class="col-md-6 offset-md-3">
 					<h4 class="font-monospace">Applications</h4>
 					<p class="font-monospace small text-muted">Python 3.9.9 / 3.8.10 - PIP 21.3.1 - JupyterLab 3.2.5 - Jupyter Notebook 6.4.6 - Thonny 3.3.14 - Console...</p>
 				</div>
+
+				<div class="col-md-2">
+					<a class="btn btn-doc btn-xs mt-2" href="https://edupyter.github.io/documentation/ajouter_app/" target="_blank" role="button">
+						<svg xmlns="http://www.w3.org/2000/svg" width="14" fill="currentColor" viewBox="0 0 448 512" role="img" class="me-2" style="float:left;">
+							<path fill="#27ae60" d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z"></path>
+						</svg>
+						<div style="margin-left:25px;">How to add an application</div>
+					</a>
+				</div>
+
 			</div>
 		</div>
 
@@ -201,8 +220,18 @@ wrapt                1.13.3
 					$bibliotheques = str_replace(array("\r\n","\n"),', ', trim($bibliotheques));
 					echo $bibliotheques;
 					?>
-				</p>
+					</p>
 				</div>
+
+				<div class="col-md-2">
+					<a class="btn btn-doc btn-xs mt-2" href="https://edupyter.github.io/documentation/ajouter_bibliotheque/" target="_blank" role="button">
+						<svg xmlns="http://www.w3.org/2000/svg" width="14" fill="currentColor" viewBox="0 0 448 512" role="img" class="me-2" style="float:left;">
+							<path fill="#27ae60" d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z"></path>
+						</svg>
+						<div style="margin-left:25px;">How to add a package</div>
+					</a>
+				</div>
+
 			</div>
 		</div>
 
