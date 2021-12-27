@@ -9,8 +9,8 @@
 <meta property="og:title" content="EDUPYTER | Development environment for teaching and learning Python." />
 <meta property="og:type" content="website" />
 <meta property="og:description" content="Python+Jupyter+Thonny+...+Windows. Development environment for teaching and learning Python. Can be installed on a hard disk or a USB key without administrator rights." />
-<meta property="og:url" content="https://www.portabledevapps.net/" />
-<meta property="og:image" content="https://www.portabledevapps.net/images/open-graph-en.png" />
+<meta property="og:url" content="https://www.edupyter.net/" />
+<meta property="og:image" content="https://www.edupyter.net/images/open-graph-en.png" />
 <meta property="og:image:alt" content="EDUPYTER" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="1200" />
@@ -22,7 +22,7 @@
 <meta name="twitter:creator" content="@edupyter">
 <meta name="twitter:title" content="EDUPYTER | Development environment for teaching and learning Python.">
 <meta name="twitter:description" content="Python+Jupyter+Thonny+...+Windows. Development environment for teaching and learning Python. Can be installed on a hard disk or a USB key without administrator rights.">
-<meta name="twitter:image" content="https://www.portabledevapps.net/images/open-graph-en.png">
+<meta name="twitter:image" content="https://www.edupyter.net/images/open-graph-en.png">
 
 <!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
