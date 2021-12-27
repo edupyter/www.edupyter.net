@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 	<head>
 		<?php include_once('inc.meta-fr.php') ?>
 		<title>EDUPYTER = Python + Jupyter + Thonny + ... + Windows</title>
