@@ -52,7 +52,7 @@
 
 				<div class="col-md-3 offset-md-3">
 					<h3>EDUPYTER 39</h3>
-					<div class="text-danger font-monospace" style="font-size:70%">with Python 3.9 for Windows 8.1 and newer</div>
+					<div class="text-danger font-monospace" style="font-size:70%">with Python 3.9.9 for Windows 8.1 and newer</div>
 
 					<p class="mt-2">
 
@@ -68,7 +68,7 @@
 
 				<div class="col-md-3">
 					<h3>EDUPYTER 38</h3>
-					<div class="text-danger font-monospace" style="font-size:70%">with Python 3.8 for Windows 7 and newer</div>
+					<div class="text-danger font-monospace" style="font-size:70%">with Python 3.8.10 for Windows 7 and newer</div>
 
 					<p class="mt-2">
 
@@ -87,8 +87,31 @@
 						<svg xmlns="http://www.w3.org/2000/svg" width="16" fill="currentColor" viewBox="0 0 512 512" role="img" class="me-2" style="float:left;">
 							<path fill="#27ae60" d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"></path>
 						</svg>
-						<div style="margin-left:25px;">Need another version? Make a request to contact@edupyter.net</div>
+						<div style="margin-left:25px;">Need another version? &#10141; contact@edupyter.net</div>
 					</a>
+				</div>
+
+			</div>
+
+			<br />
+
+			<div class="row">
+
+				<div class="col-md-4 offset-md-3">
+					<h3>EDUPYTER 310</h3>
+					<div class="text-danger font-monospace" style="font-size:70%">with Python 3.10.1 for Windows 8.1 and newer</div>
+					<div class="text-warning font-monospace" style="font-size:70%">EXPERIMENTAL - NOT ALL LIBRARIES ARE READY<br />FOR PYTHON 3.10</div>
+
+					<p class="mt-2">
+
+						<a href="https://github.com/edupyter/EDUPYTER310/releases/download/v1.0/EDUPYTER-310-1.0-setup.exe" class="btn btn-download btn-xs mt-2"><svg viewBox="0 0 512 512" version="1.1" width="16" height="16" aria-hidden="true"><path fill="#6c757d" d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z"></path></svg><sup class="ms-2 text-muted font-monospace" style="font-size:70%">1.0</sup></a><span class="text-monospace ms-2" style="font-size:60%;color:silver">74 Mo</span>
+
+						<a href="https://github.com/edupyter/EDUPYTER310/discussions" target="_blank" class="ms-5 me-2" data-bs-toggle="tooltip" data-bs-placement="top" title="discussions"><svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill="#3674a9" d="M1.5 2.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v5.5a.25.25 0 01-.25.25h-3.5a.75.75 0 00-.53.22L3.5 11.44V9.25a.75.75 0 00-.75-.75h-1a.25.25 0 01-.25-.25v-5.5zM1.75 1A1.75 1.75 0 000 2.75v5.5C0 9.216.784 10 1.75 10H2v1.543a1.457 1.457 0 002.487 1.03L7.061 10h3.189A1.75 1.75 0 0012 8.25v-5.5A1.75 1.75 0 0010.25 1h-8.5zM14.5 4.75a.25.25 0 00-.25-.25h-.5a.75.75 0 110-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0114.25 12H14v1.543a1.457 1.457 0 01-2.487 1.03L9.22 12.28a.75.75 0 111.06-1.06l2.22 2.22v-2.19a.75.75 0 01.75-.75h1a.25.25 0 00.25-.25v-5.5z"></path></svg></a>
+
+						<a href="https://github.com/edupyter/EDUPYTER310/issues" target="_blank" class="ms-2" data-bs-toggle="tooltip" data-bs-placement="top" title="signalement de bogue"><svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill="#3674a9" d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path><path fill="#3674a9" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"></path></svg></a>
+
+					</p>
+
 				</div>
 
 			</div>
@@ -100,7 +123,7 @@
 
 				<div class="col-md-6 offset-md-3">
 					<h4 class="font-monospace">Applications</h4>
-					<p class="font-monospace small text-muted">Python 3.9.9 / 3.8.10 - PIP 21.3.1 - JupyterLab 3.2.5 - Jupyter Notebook 6.4.6 - Thonny 3.3.14 - Console...</p>
+					<p class="font-monospace small text-muted">Python 3.9.9 / 3.8.10 / 3.10.1 - PIP 21.3.1 - JupyterLab 3.2.5 - Jupyter Notebook 6.4.6 - Thonny 3.3.14 - Console...</p>
 				</div>
 
 				<div class="col-md-2">
