@@ -60,6 +60,9 @@ h4 {
 a.twitter {color: #7ac9ed;opacity: 0.5;}
 a.twitter:hover {color: #7ac9ed;opacity: 1;}
 
+a.github {color: silver;opacity: 0.5;}
+a.github:hover {color: gray;opacity: 1;}
+
 .kbd-on {
     padding: 0.1rem 0.4rem;
     font-size: .7em;
