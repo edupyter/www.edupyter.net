@@ -32,11 +32,11 @@
 						<p class="mt-2">Easy to deploy, update and extend (packages, modules, applications...).</p>
 						<p class="pt-1 font-monospace small" style="color:silver">open source / free</p>
 						<div class="pt-2 apps-logos">
-							<img src="images/python-logo.png" height="35" alt="Python" data-bs-toggle="tooltip" data-bs-placement="top" title="PYTHON" />
-							<img src="images/thonny-logo.png" height="35" alt="Thonny" data-bs-toggle="tooltip" data-bs-placement="top" title="THONNY" />
-							<img src="images/jupyter-logo.png" height="35" alt="Jupyter" data-bs-toggle="tooltip" data-bs-placement="top" title="JUPYTER" />
-							<img src="images/dots.png" height="35" alt="..." />
-							<img src="images/windows-logo.png" height="35" alt="Windows" data-bs-toggle="tooltip" data-bs-placement="top" title="WINDOWS" />
+							<img src="../images/python-logo.png" height="35" alt="Python" data-bs-toggle="tooltip" data-bs-placement="top" title="PYTHON" />
+							<img src="../images/thonny-logo.png" height="35" alt="Thonny" data-bs-toggle="tooltip" data-bs-placement="top" title="THONNY" />
+							<img src="../images/jupyter-logo.png" height="35" alt="Jupyter" data-bs-toggle="tooltip" data-bs-placement="top" title="JUPYTER" />
+							<img src="../images/dots.png" height="35" alt="..." />
+							<img src="../images/windows-logo.png" height="35" alt="Windows" data-bs-toggle="tooltip" data-bs-placement="top" title="WINDOWS" />
 						</div>
 					</div>
 					<div class="col-md-2 text-center">
@@ -54,7 +54,7 @@
 				$download_38 =  "https://github.com/edupyter/EDUPYTER38/releases/download/v1.3/EDUPYTER-38-1.3-setup.exe";
 				$download_39 =  "https://github.com/edupyter/EDUPYTER39/releases/download/v1.3/EDUPYTER-39-1.3-setup.exe";
 				$download_310 = "https://github.com/edupyter/EDUPYTER310/releases/download/v1.3/EDUPYTER-310-1.3-setup.exe";
-				?>				
+				?>
 
 				<div class="col-md-2 offset-md-2">
 					<h3>EDUPYTER 38</h3>
