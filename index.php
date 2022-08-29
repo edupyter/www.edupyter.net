@@ -78,7 +78,7 @@
 
 				<div class="col-md-2">
 					<h3>EDUPYTER 310</h3>
-					<div class="text-muted font-monospace" style="font-size:70%">avec Python 3.10.5</div>
+					<div class="text-muted font-monospace" style="font-size:70%">avec Python 3.10.6</div>
 					<div class="text-danger font-monospace" style="font-size:70%">pour Windows 8.1 et plus</div>
 					<!--<div class="text-warning font-monospace" style="font-size:70%">EXPÉRIMENTAL - TOUTES LES BIBLIOTHÈQUES<br />NE SONT PAS PRÊTES POUR PYTHON 3.10</div>-->
 					<p class="mt-2">
