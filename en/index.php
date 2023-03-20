@@ -132,7 +132,7 @@
 			<div class="row">
 				<div class="col-md-6 offset-md-2">
 					<h4 class="font-monospace">Packages installed</h4>
-					<p class="font-monospace small text-muted">
+					<p class="font-monospace small text-muted" style="text-align:justify">
 					<?php
 					$bibliotheques = '
 aiofiles                       22.1.0
@@ -269,7 +269,8 @@ y-py                           0.5.9
 ypy-websocket                  0.8.2
 zipp                           3.8.0
 ';
-					$bibliotheques = preg_replace("/\s+[0-9+\.]+[0-9]+/",", ",trim($bibliotheques));
+					//$bibliotheques = preg_replace("/\s+[0-9+\.]+[0-9]+/",", ",trim($bibliotheques));
+					$bibliotheques = preg_replace("/\s+/",", ",trim($bibliotheques));
 					$bibliotheques = trim($bibliotheques, ", ");
 					echo $bibliotheques;
 					?>
