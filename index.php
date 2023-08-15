@@ -49,15 +49,17 @@
 			<div class="row">
 
 				<?php
-				$version_38 = "1.10";
-				$version_39 = "1.10";
-				$version_310 = "1.10";
+				$version_38 = "1.11";
+				$version_39 = "1.11";
+				$version_310 = "1.11";
+				$version_311 = "1.0";
 				$download_38 =  "https://github.com/edupyter/EDUPYTER38/releases/download/v".$version_38."/EDUPYTER-38-".$version_38."-setup.exe";
 				$download_39 =  "https://github.com/edupyter/EDUPYTER39/releases/download/v".$version_39."/EDUPYTER-39-".$version_39."-setup.exe";
 				$download_310 = "https://github.com/edupyter/EDUPYTER310/releases/download/v".$version_310."/EDUPYTER-310-".$version_310."-setup.exe";
+				$download_311 = "https://github.com/edupyter/EDUPYTER310/releases/download/v".$version_310."/EDUPYTER-310-".$version_310."-setup.exe";
 				?>
 
-				<div class="col-md-2 offset-md-2">
+				<div class="col-md-2 offset-md-1">
 					<h3>EDUPYTER 38</h3>
 					<div class="text-muted font-monospace" style="font-size:70%">avec Python 3.8.10</div>
 					<div class="text-danger font-monospace" style="font-size:70%">pour Windows 7 et plus</div>
@@ -83,7 +85,7 @@
 
 				<div class="col-md-2">
 					<h3>EDUPYTER 310</h3>
-					<div class="text-muted font-monospace" style="font-size:70%">avec Python 3.10.10</div>
+					<div class="text-muted font-monospace" style="font-size:70%">avec Python 3.10.11</div>
 					<div class="text-danger font-monospace" style="font-size:70%">pour Windows 8.1 et plus</div>
 					<!--<div class="text-warning font-monospace" style="font-size:70%">EXPÉRIMENTAL - TOUTES LES BIBLIOTHÈQUES<br />NE SONT PAS PRÊTES POUR PYTHON 3.10</div>-->
 					<p class="mt-2">
@@ -93,6 +95,19 @@
 						<a href="https://github.com/edupyter/EDUPYTER310/issues" target="_blank" class="ms-2" data-bs-toggle="tooltip" data-bs-placement="top" title="signalement de bogue"><svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill="#3674a9" d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path><path fill="#3674a9" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"></path></svg></a>
 					</p>
 				</div>
+
+				<div class="col-md-2">
+					<h3>EDUPYTER 311</h3>
+					<div class="text-muted font-monospace" style="font-size:70%">avec Python 3.11.4</div>
+					<div class="text-danger font-monospace" style="font-size:70%">pour Windows 8.1 et plus</div>
+					<!--<div class="text-warning font-monospace" style="font-size:70%">EXPÉRIMENTAL - TOUTES LES BIBLIOTHÈQUES<br />NE SONT PAS PRÊTES POUR PYTHON 3.10</div>-->
+					<p class="mt-2">
+						<a href="<?php echo $download_311; ?>" class="btn btn-download btn-xs mt-2"><svg viewBox="0 0 512 512" version="1.1" width="16" height="16" aria-hidden="true"><path fill="#6c757d" d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z"></path></svg><sup class="ms-2 text-muted font-monospace" style="font-size:70%"><?php echo $version_311 ?></sup></a>
+						<a href="https://github.com/edupyter/EDUPYTER310/releases" target="_blank" class="ms-3" data-bs-toggle="tooltip" data-bs-placement="top" title="versions"><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true"><path fill-rule="evenodd" fill="#3674a9" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"></path></svg></a>
+						<a href="https://github.com/edupyter/EDUPYTER310/discussions" target="_blank" class="ms-2" data-bs-toggle="tooltip" data-bs-placement="top" title="discussions"><svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill="#3674a9" d="M1.5 2.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v5.5a.25.25 0 01-.25.25h-3.5a.75.75 0 00-.53.22L3.5 11.44V9.25a.75.75 0 00-.75-.75h-1a.25.25 0 01-.25-.25v-5.5zM1.75 1A1.75 1.75 0 000 2.75v5.5C0 9.216.784 10 1.75 10H2v1.543a1.457 1.457 0 002.487 1.03L7.061 10h3.189A1.75 1.75 0 0012 8.25v-5.5A1.75 1.75 0 0010.25 1h-8.5zM14.5 4.75a.25.25 0 00-.25-.25h-.5a.75.75 0 110-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0114.25 12H14v1.543a1.457 1.457 0 01-2.487 1.03L9.22 12.28a.75.75 0 111.06-1.06l2.22 2.22v-2.19a.75.75 0 01.75-.75h1a.25.25 0 00.25-.25v-5.5z"></path></svg></a>
+						<a href="https://github.com/edupyter/EDUPYTER310/issues" target="_blank" class="ms-2" data-bs-toggle="tooltip" data-bs-placement="top" title="signalement de bogue"><svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill="#3674a9" d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path><path fill="#3674a9" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"></path></svg></a>
+					</p>
+				</div>				
 
 				<div class="col-md-2">
 					<a class="btn btn-doc btn-xs mt-2" href="mailto:contact@edupyter.net" target="_blank" role="button">
@@ -108,7 +123,7 @@
 
 		<div class="container mt-5">
 			<div class="row">
-				<div class="col-md-6 offset-md-2">
+				<div class="col-md-8 offset-md-1">
 					<h4 class="font-monospace">Applications</h4>
 					<p class="font-monospace small text-muted">Python 3.8.x / 3.9.x / 3.10.x - PIP - JupyterLab - Jupyter Notebook - Thonny - Console...</p>
 				</div>
@@ -125,144 +140,139 @@
 
 		<div class="container mt-3">
 			<div class="row">
-				<div class="col-md-6 offset-md-2">
+				<div class="col-md-8 offset-md-1">
 					<h4 class="font-monospace">Bibliothèques installées</h4>
 					<p class="font-monospace small text-muted" style="text-align:justify">
 					<?php
 					$bibliotheques = '
-aiofiles                       22.1.0
-aiosqlite                      0.18.0
-anyio                          3.6.1
+anyio                          3.7.1
 argon2-cffi                    21.3.0
 argon2-cffi-bindings           21.2.0
 arrow                          1.2.3
-astroid                        2.11.6
-asttokens                      2.0.5
-attrs                          21.4.0
-Babel                          2.10.3
+astroid                        2.15.6
+asttokens                      2.2.1
+async-lru                      2.0.4
+attrs                          23.1.0
+Babel                          2.12.1
 backcall                       0.2.0
-beautifulsoup4                 4.11.1
-bleach                         5.0.0
+beautifulsoup4                 4.12.2
+bleach                         6.0.0
 blurhash                       1.1.4
-certifi                        2022.6.15
-cffi                           1.15.0
-charset-normalizer             2.0.12
-colorama                       0.4.5
-contourpy                      1.0.5
+certifi                        2023.7.22
+cffi                           1.15.1
+charset-normalizer             3.2.0
+colorama                       0.4.6
+comm                           0.1.4
+contourpy                      1.1.0
 cycler                         0.11.0
-debugpy                        1.6.0
+debugpy                        1.6.7.post1
 decorator                      5.1.1
 defusedxml                     0.7.1
-dill                           0.3.5.1
-docutils                       0.18.1
-entrypoints                    0.4
-executing                      0.8.3
-fastjsonschema                 2.15.3
-fonttools                      4.33.3
+dill                           0.3.7
+docutils                       0.20.1
+exceptiongroup                 1.1.3
+executing                      1.2.0
+fastjsonschema                 2.18.0
+fonttools                      4.42.0
 fqdn                           1.5.1
-idna                           3.3
-importlib-metadata             4.11.4
-importlib-resources            5.12.0
-ipykernel                      6.15.0
-ipython                        8.4.0
-ipython-genutils               0.2.0
-ipywidgets                     8.0.4
+idna                           3.4
+ipykernel                      6.25.1
+ipython                        8.14.0
+ipywidgets                     8.1.0
 isoduration                    20.11.0
-isort                          5.10.1
-jedi                           0.18.1
+isort                          5.12.0
+jedi                           0.19.0
 Jinja2                         3.1.2
-json5                          0.9.8
-jsonpointer                    2.3
-jsonschema                     4.17.3
-jupyter_client                 8.0.3
-jupyter_core                   5.3.0
-jupyter-events                 0.6.3
-jupyter-server                 1.23.6
-jupyter_server_fileid          0.8.0
-jupyter_server_ydoc            0.6.1
-jupyter-ydoc                   0.2.3
-jupyterlab                     3.6.1
-jupyterlab-language-pack-fr-FR 3.6.post0
+json5                          0.9.14
+jsonpointer                    2.4
+jsonschema                     4.19.0
+jsonschema-specifications      2023.7.1
+jupyter_client                 8.3.0
+jupyter_core                   5.3.1
+jupyter-events                 0.7.0
+jupyter-lsp                    2.2.0
+jupyter_server                 2.7.0
+jupyter_server_terminals       0.4.4
+jupyterlab                     4.0.5
+jupyterlab-language-pack-fr-FR 4.0.post1
 jupyterlab-pygments            0.2.2
-jupyterlab_server              2.20.0
-jupyterlab-widgets             3.0.2
-kiwisolver                     1.4.3
-lazy-object-proxy              1.7.1
-MarkupSafe                     2.1.1
-Mastodon.py                    1.8.0
-matplotlib                     3.7.1
-matplotlib-inline              0.1.3
+jupyterlab_server              2.24.0
+jupyterlab-widgets             3.0.8
+kiwisolver                     1.4.4
+lazy-object-proxy              1.9.0
+MarkupSafe                     2.1.3
+Mastodon.py                    1.8.1
+matplotlib                     3.7.2
+matplotlib-inline              0.1.6
 mccabe                         0.7.0
-mistune                        0.8.4
-mypy                           0.961
-mypy-extensions                0.4.3
-nbclassic                      0.3.7
-nbclient                       0.6.4
-nbconvert                      6.5.0
-nbformat                       5.4.0
-nest-asyncio                   1.5.5
-notebook                       6.4.12
-notebook-shim                  0.1.0
-numpy                          1.24.2
+mistune                        3.0.1
+mypy                           1.5.0
+mypy-extensions                1.0.0
+nbclient                       0.8.0
+nbconvert                      7.7.3
+nbformat                       5.9.2
+nest-asyncio                   1.5.7
+notebook_shim                  0.2.3
+numpy                          1.25.2
 oauthlib                       3.2.2
-packaging                      21.3
-pandas                         1.5.3
+overrides                      7.4.0
+packaging                      23.1
+pandas                         2.0.3
 pandocfilters                  1.5.0
 parso                          0.8.3
 pickleshare                    0.7.5
-Pillow                         9.4.0
-pip                            23.0.1
-platformdirs                   2.5.2
-prometheus-client              0.14.1
-prompt-toolkit                 3.0.29
-psutil                         5.9.1
+Pillow                         10.0.0
+pip                            23.2.1
+platformdirs                   3.10.0
+prometheus-client              0.17.1
+prompt-toolkit                 3.0.39
+psutil                         5.9.5
 pure-eval                      0.2.2
 pycparser                      2.21
-Pygments                       2.12.0
-pylint                         2.14.3
+Pygments                       2.16.1
+pylint                         2.17.5
 pyparsing                      3.0.9
-pyrsistent                     0.18.1
 pyserial                       3.5
 python-dateutil                2.8.2
 python-json-logger             2.0.7
-python-magic                   0.4.27
-pytz                           2022.1
-pywin32                        304
-pywinpty                       2.0.5
-pyxel                          1.9.12
-PyYAML                         6.0
-pyzmq                          25.0.1
-requests                       2.28.2
+python-magic-bin               0.4.14
+pytz                           2023.3
+pywin32                        306
+pywinpty                       2.0.11
+pyxel                          1.9.18
+PyYAML                         6.0.1
+pyzmq                          25.1.1
+referencing                    0.30.2
+requests                       2.31.0
 requests-oauthlib              1.3.1
 rfc3339-validator              0.1.4
 rfc3986-validator              0.1.1
-Send2Trash                     1.8.0
-setuptools                     58.1.0
+rpds-py                        0.9.2
+Send2Trash                     1.8.2
+setuptools                     65.5.0
 six                            1.16.0
-sniffio                        1.2.0
-soupsieve                      2.3.2.post1
-stack-data                     0.3.0
-terminado                      0.15.0
-thonny                         4.0.2
-tinycss2                       1.1.1
+sniffio                        1.3.0
+soupsieve                      2.4.1
+stack-data                     0.6.2
+terminado                      0.17.1
+thonny                         4.1.2
+tinycss2                       1.2.1
 tomli                          2.0.1
-tomlkit                        0.11.0
-tornado                        6.2
+tomlkit                        0.12.1
+tornado                        6.3.3
 traitlets                      5.9.0
-tweepy                         4.13.0
-typing_extensions              4.2.0
-uri-template                   1.2.0
-urllib3                        1.26.9
-wcwidth                        0.2.5
-webcolors                      1.12
+tweepy                         4.14.0
+typing_extensions              4.7.1
+tzdata                         2023.3
+uri-template                   1.3.0
+urllib3                        2.0.4
+wcwidth                        0.2.6
+webcolors                      1.13
 webencodings                   0.5.1
-websocket-client               1.3.2
-wheel                          0.37.1
-widgetsnbextension             4.0.2
-wrapt                          1.14.1
-y-py                           0.5.9
-ypy-websocket                  0.8.2
-zipp                           3.8.0
+websocket-client               1.6.1
+wheel                          0.41.1
+widgetsnbextension             4.0.8
+wrapt                          1.15.0
 ';
 					//$bibliotheques = preg_replace("/\s+[0-9+\.]+[0-9]+/",", ",trim($bibliotheques));
 					$bibliotheques = preg_replace("/\n/",", ",trim($bibliotheques));
