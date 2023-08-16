@@ -7,6 +7,8 @@
 
 	<body>
 
+		<?php include_once('inc.versions.php') ?>
+
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4 text-center mt-2">
@@ -47,17 +49,6 @@
 
 		<div class="container">
 			<div class="row">
-
-				<?php
-				$version_38 = "1.11";
-				$version_39 = "1.11";
-				$version_310 = "1.11";
-				$version_311 = "1.0";
-				$download_38 =  "https://github.com/edupyter/EDUPYTER38/releases/download/v".$version_38."/EDUPYTER-38-".$version_38."-setup.exe";
-				$download_39 =  "https://github.com/edupyter/EDUPYTER39/releases/download/v".$version_39."/EDUPYTER-39-".$version_39."-setup.exe";
-				$download_310 = "https://github.com/edupyter/EDUPYTER310/releases/download/v".$version_310."/EDUPYTER-310-".$version_310."-setup.exe";
-				$download_311 = "https://github.com/edupyter/EDUPYTER310/releases/download/v".$version_310."/EDUPYTER-310-".$version_310."-setup.exe";
-				?>
 
 				<div class="col-md-2 offset-md-1">
 					<h3>EDUPYTER 38</h3>
