@@ -7,7 +7,7 @@
 
 	<body>
 
-		<?php include_once('inc.versions.php') ?>
+		<?php include_once('../inc.versions.php') ?>
 
 		<div class="container">
 			<div class="row">
