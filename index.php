@@ -89,7 +89,7 @@
 
 				<div class="col-md-2">
 					<h3>EDUPYTER 311</h3>
-					<div class="text-muted font-monospace" style="font-size:70%">avec Python 3.11.4</div>
+					<div class="text-muted font-monospace" style="font-size:70%">avec Python 3.11.8</div>
 					<div class="text-danger font-monospace" style="font-size:70%">pour Windows 8.1 et plus</div>
 					<!--<div class="text-warning font-monospace" style="font-size:70%">EXPÉRIMENTAL - TOUTES LES BIBLIOTHÈQUES<br />NE SONT PAS PRÊTES POUR PYTHON 3.10</div>-->
 					<p class="mt-2">
@@ -102,7 +102,7 @@
 
 				<div class="col-md-2">
 					<h3>EDUPYTER 312</h3>
-					<div class="text-muted font-monospace" style="font-size:70%">avec Python 3.12.0</div>
+					<div class="text-muted font-monospace" style="font-size:70%">avec Python 3.12.2</div>
 					<div class="text-danger font-monospace" style="font-size:70%">pour Windows 8.1 et plus</div>
 					<!--<div class="text-warning font-monospace" style="font-size:70%">EXPÉRIMENTAL - TOUTES LES BIBLIOTHÈQUES<br />NE SONT PAS PRÊTES POUR PYTHON 3.10</div>-->
 					<p class="mt-2">
