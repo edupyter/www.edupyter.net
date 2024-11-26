@@ -181,7 +181,7 @@ a.github:hover {color: gray;opacity: 1;}
     background-image: none;
     border-color: #f1f3f4;
     text-align:left;
-    width:100%;
+    /*width:100%;*/
 }
 
 .btn-doc:hover {

@@ -52,74 +52,72 @@
 
 				<div class="col-md-2">
 					<h3>EDUPYTER 38</h3>
-					<div class="text-muted font-monospace" style="font-size:70%">avec Python 3.8.10</div>
+					<div class="text-muted font-monospace" style="font-size:70%">avec Python <?php echo $version_38 ?></div>
 					<div class="text-danger font-monospace" style="font-size:70%">pour Windows 7 et plus</div>
 					<p class="mt-2">
 						<a href="<?php echo $download_38; ?>" class="btn btn-download btn-xs mt-2"><svg viewBox="0 0 512 512" version="1.1" width="16" height="16" aria-hidden="true"><path fill="#6c757d" d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z"></path></svg></a>
-						<a href="https://github.com/edupyter/EDUPYTER38/releases" target="_blank" class="ms-3" data-bs-toggle="tooltip" data-bs-placement="top" title="versions"><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true"><path fill-rule="evenodd" fill="#3674a9" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"></path></svg></a>
-						<a href="https://github.com/edupyter/EDUPYTER38/discussions" target="_blank" class="ms-2" data-bs-toggle="tooltip" data-bs-placement="top" title="discussions"><svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill="#3674a9" d="M1.5 2.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v5.5a.25.25 0 01-.25.25h-3.5a.75.75 0 00-.53.22L3.5 11.44V9.25a.75.75 0 00-.75-.75h-1a.25.25 0 01-.25-.25v-5.5zM1.75 1A1.75 1.75 0 000 2.75v5.5C0 9.216.784 10 1.75 10H2v1.543a1.457 1.457 0 002.487 1.03L7.061 10h3.189A1.75 1.75 0 0012 8.25v-5.5A1.75 1.75 0 0010.25 1h-8.5zM14.5 4.75a.25.25 0 00-.25-.25h-.5a.75.75 0 110-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0114.25 12H14v1.543a1.457 1.457 0 01-2.487 1.03L9.22 12.28a.75.75 0 111.06-1.06l2.22 2.22v-2.19a.75.75 0 01.75-.75h1a.25.25 0 00.25-.25v-5.5z"></path></svg></a>
-						<a href="https://github.com/edupyter/EDUPYTER38/issues" target="_blank" class="ms-2" data-bs-toggle="tooltip" data-bs-placement="top" title="signalement de bogue"><svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill="#3674a9" d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path><path fill="#3674a9" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"></path></svg></a>
+						<a href="https://forge.apps.education.fr/edupyter/EDUPYTER38" target="_blank" class="ms-3" data-bs-toggle="tooltip" data-bs-placement="top" title="code"><svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill="#3674a9" d="M9.424 2.023a.75.75 0 0 1 .556.904L7.48 13.42a.75.75 0 0 1-1.46-.348L8.52 2.58a.75.75 0 0 1 .904-.556ZM11.16 4.22a.75.75 0 0 1 1.06 0l3.25 3.25L16 8l-.53.53-3.25 3.25a.75.75 0 1 1-1.06-1.06L13.88 8l-2.72-2.72a.75.75 0 0 1 0-1.06ZM4.84 5.28a.75.75 0 1 0-1.06-1.06L.53 7.47 0 8l.53.53 3.25 3.25a.75.75 0 0 0 1.06-1.06L2.12 8l2.72-2.72Z" fill="#000"/></svg></a>
+						<a href="https://forge.apps.education.fr/edupyter/EDUPYTER38/-/issues" target="_blank" class="ms-2" data-bs-toggle="tooltip" data-bs-placement="top" title="signalement de bogue"><svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill="#3674a9" d="M3 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h3.25a.75.75 0 0 0 0-1.5H3a.5.5 0 0 1-.5-.5V3a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 .5.5v5.25a.75.75 0 0 0 1.5 0V4.364l2.19 1.14a.25.25 0 0 1 .107.338l-1.072 2.062a.75.75 0 0 0 1.33.692l1.073-2.062a1.75 1.75 0 0 0-.745-2.36l-2.912-1.516A2 2 0 0 0 9 1H3Zm6 12a.75.75 0 0 1 .75-.75h1.5v-1.5a.75.75 0 0 1 1.5 0v1.5h1.5a.75.75 0 0 1 0 1.5h-1.5v1.5a.75.75 0 0 1-1.5 0v-1.5h-1.5A.75.75 0 0 1 9 13Z" fill="#000"/></svg></a>
 					</p>
 				</div>
 
 				<div class="col-md-2">
 					<h3>EDUPYTER 39</h3>
-					<div class="text-muted font-monospace" style="font-size:70%">avec Python 3.9.13</div>
+					<div class="text-muted font-monospace" style="font-size:70%">avec Python <?php echo $version_39 ?></div>
 					<div class="text-danger font-monospace" style="font-size:70%">pour Windows 8.1 et plus</div>
 					<p class="mt-2">
 						<a href="<?php echo $download_39; ?>" class="btn btn-download btn-xs mt-2"><svg viewBox="0 0 512 512" version="1.1" width="16" height="16" aria-hidden="true"><path fill="#6c757d" d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z"></path></svg></a>
-						<a href="https://github.com/edupyter/EDUPYTER39/releases" target="_blank" class="ms-3" data-bs-toggle="tooltip" data-bs-placement="top" title="versions"><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true"><path fill-rule="evenodd" fill="#3674a9" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"></path></svg></a>
-						<a href="https://github.com/edupyter/EDUPYTER39/discussions" target="_blank" class="ms-2" data-bs-toggle="tooltip" data-bs-placement="top" title="discussions"><svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill="#3674a9" d="M1.5 2.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v5.5a.25.25 0 01-.25.25h-3.5a.75.75 0 00-.53.22L3.5 11.44V9.25a.75.75 0 00-.75-.75h-1a.25.25 0 01-.25-.25v-5.5zM1.75 1A1.75 1.75 0 000 2.75v5.5C0 9.216.784 10 1.75 10H2v1.543a1.457 1.457 0 002.487 1.03L7.061 10h3.189A1.75 1.75 0 0012 8.25v-5.5A1.75 1.75 0 0010.25 1h-8.5zM14.5 4.75a.25.25 0 00-.25-.25h-.5a.75.75 0 110-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0114.25 12H14v1.543a1.457 1.457 0 01-2.487 1.03L9.22 12.28a.75.75 0 111.06-1.06l2.22 2.22v-2.19a.75.75 0 01.75-.75h1a.25.25 0 00.25-.25v-5.5z"></path></svg></a>
-						<a href="https://github.com/edupyter/EDUPYTER39/issues" target="_blank" class="ms-2" data-bs-toggle="tooltip" data-bs-placement="top" title="signalement de bogue"><svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill="#3674a9" d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path><path fill="#3674a9" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"></path></svg></a>
+						<a href="https://forge.apps.education.fr/edupyter/EDUPYTER39" target="_blank" class="ms-3" data-bs-toggle="tooltip" data-bs-placement="top" title="code"><svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill="#3674a9" d="M9.424 2.023a.75.75 0 0 1 .556.904L7.48 13.42a.75.75 0 0 1-1.46-.348L8.52 2.58a.75.75 0 0 1 .904-.556ZM11.16 4.22a.75.75 0 0 1 1.06 0l3.25 3.25L16 8l-.53.53-3.25 3.25a.75.75 0 1 1-1.06-1.06L13.88 8l-2.72-2.72a.75.75 0 0 1 0-1.06ZM4.84 5.28a.75.75 0 1 0-1.06-1.06L.53 7.47 0 8l.53.53 3.25 3.25a.75.75 0 0 0 1.06-1.06L2.12 8l2.72-2.72Z" fill="#000"/></svg></a>
+						<a href="https://forge.apps.education.fr/edupyter/EDUPYTER39/-/issues" target="_blank" class="ms-2" data-bs-toggle="tooltip" data-bs-placement="top" title="signalement de bogue"><svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill="#3674a9" d="M3 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h3.25a.75.75 0 0 0 0-1.5H3a.5.5 0 0 1-.5-.5V3a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 .5.5v5.25a.75.75 0 0 0 1.5 0V4.364l2.19 1.14a.25.25 0 0 1 .107.338l-1.072 2.062a.75.75 0 0 0 1.33.692l1.073-2.062a1.75 1.75 0 0 0-.745-2.36l-2.912-1.516A2 2 0 0 0 9 1H3Zm6 12a.75.75 0 0 1 .75-.75h1.5v-1.5a.75.75 0 0 1 1.5 0v1.5h1.5a.75.75 0 0 1 0 1.5h-1.5v1.5a.75.75 0 0 1-1.5 0v-1.5h-1.5A.75.75 0 0 1 9 13Z" fill="#000"/></svg></a>
 					</p>
 				</div>
 
 				<div class="col-md-2">
 					<h3>EDUPYTER 310</h3>
-					<div class="text-muted font-monospace" style="font-size:70%">avec Python 3.10.11</div>
+					<div class="text-muted font-monospace" style="font-size:70%">avec Python <?php echo $version_310 ?></div>
 					<div class="text-danger font-monospace" style="font-size:70%">pour Windows 8.1 et plus</div>
 					<!--<div class="text-warning font-monospace" style="font-size:70%">EXPÉRIMENTAL - TOUTES LES BIBLIOTHÈQUES<br />NE SONT PAS PRÊTES POUR PYTHON 3.10</div>-->
 					<p class="mt-2">
 						<a href="<?php echo $download_310; ?>" class="btn btn-download btn-xs mt-2"><svg viewBox="0 0 512 512" version="1.1" width="16" height="16" aria-hidden="true"><path fill="#6c757d" d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z"></path></svg></a>
-						<a href="https://github.com/edupyter/EDUPYTER310/releases" target="_blank" class="ms-3" data-bs-toggle="tooltip" data-bs-placement="top" title="versions"><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true"><path fill-rule="evenodd" fill="#3674a9" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"></path></svg></a>
-						<a href="https://github.com/edupyter/EDUPYTER310/discussions" target="_blank" class="ms-2" data-bs-toggle="tooltip" data-bs-placement="top" title="discussions"><svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill="#3674a9" d="M1.5 2.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v5.5a.25.25 0 01-.25.25h-3.5a.75.75 0 00-.53.22L3.5 11.44V9.25a.75.75 0 00-.75-.75h-1a.25.25 0 01-.25-.25v-5.5zM1.75 1A1.75 1.75 0 000 2.75v5.5C0 9.216.784 10 1.75 10H2v1.543a1.457 1.457 0 002.487 1.03L7.061 10h3.189A1.75 1.75 0 0012 8.25v-5.5A1.75 1.75 0 0010.25 1h-8.5zM14.5 4.75a.25.25 0 00-.25-.25h-.5a.75.75 0 110-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0114.25 12H14v1.543a1.457 1.457 0 01-2.487 1.03L9.22 12.28a.75.75 0 111.06-1.06l2.22 2.22v-2.19a.75.75 0 01.75-.75h1a.25.25 0 00.25-.25v-5.5z"></path></svg></a>
-						<a href="https://github.com/edupyter/EDUPYTER310/issues" target="_blank" class="ms-2" data-bs-toggle="tooltip" data-bs-placement="top" title="signalement de bogue"><svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill="#3674a9" d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path><path fill="#3674a9" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"></path></svg></a>
+						<a href="https://forge.apps.education.fr/edupyter/EDUPYTER310" target="_blank" class="ms-3" data-bs-toggle="tooltip" data-bs-placement="top" title="code"><svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill="#3674a9" d="M9.424 2.023a.75.75 0 0 1 .556.904L7.48 13.42a.75.75 0 0 1-1.46-.348L8.52 2.58a.75.75 0 0 1 .904-.556ZM11.16 4.22a.75.75 0 0 1 1.06 0l3.25 3.25L16 8l-.53.53-3.25 3.25a.75.75 0 1 1-1.06-1.06L13.88 8l-2.72-2.72a.75.75 0 0 1 0-1.06ZM4.84 5.28a.75.75 0 1 0-1.06-1.06L.53 7.47 0 8l.53.53 3.25 3.25a.75.75 0 0 0 1.06-1.06L2.12 8l2.72-2.72Z" fill="#000"/></svg></a>
+							<a href="https://forge.apps.education.fr/edupyter/EDUPYTER310/-/issues" target="_blank" class="ms-2" data-bs-toggle="tooltip" data-bs-placement="top" title="signalement de bogue"><svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill="#3674a9" d="M3 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h3.25a.75.75 0 0 0 0-1.5H3a.5.5 0 0 1-.5-.5V3a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 .5.5v5.25a.75.75 0 0 0 1.5 0V4.364l2.19 1.14a.25.25 0 0 1 .107.338l-1.072 2.062a.75.75 0 0 0 1.33.692l1.073-2.062a1.75 1.75 0 0 0-.745-2.36l-2.912-1.516A2 2 0 0 0 9 1H3Zm6 12a.75.75 0 0 1 .75-.75h1.5v-1.5a.75.75 0 0 1 1.5 0v1.5h1.5a.75.75 0 0 1 0 1.5h-1.5v1.5a.75.75 0 0 1-1.5 0v-1.5h-1.5A.75.75 0 0 1 9 13Z" fill="#000"/></svg></a>
 					</p>
 				</div>
 
 				<div class="col-md-2">
 					<h3>EDUPYTER 311</h3>
-					<div class="text-muted font-monospace" style="font-size:70%">avec Python 3.11.8</div>
+					<div class="text-muted font-monospace" style="font-size:70%">avec Python <?php echo $version_311 ?></div>
 					<div class="text-danger font-monospace" style="font-size:70%">pour Windows 8.1 et plus</div>
 					<!--<div class="text-warning font-monospace" style="font-size:70%">EXPÉRIMENTAL - TOUTES LES BIBLIOTHÈQUES<br />NE SONT PAS PRÊTES POUR PYTHON 3.10</div>-->
 					<p class="mt-2">
 						<a href="<?php echo $download_311; ?>" class="btn btn-download btn-xs mt-2"><svg viewBox="0 0 512 512" version="1.1" width="16" height="16" aria-hidden="true"><path fill="#6c757d" d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z"></path></svg></a>
-						<a href="https://github.com/edupyter/EDUPYTER311/releases" target="_blank" class="ms-3" data-bs-toggle="tooltip" data-bs-placement="top" title="versions"><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true"><path fill-rule="evenodd" fill="#3674a9" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"></path></svg></a>
-						<a href="https://github.com/edupyter/EDUPYTER311/discussions" target="_blank" class="ms-2" data-bs-toggle="tooltip" data-bs-placement="top" title="discussions"><svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill="#3674a9" d="M1.5 2.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v5.5a.25.25 0 01-.25.25h-3.5a.75.75 0 00-.53.22L3.5 11.44V9.25a.75.75 0 00-.75-.75h-1a.25.25 0 01-.25-.25v-5.5zM1.75 1A1.75 1.75 0 000 2.75v5.5C0 9.216.784 10 1.75 10H2v1.543a1.457 1.457 0 002.487 1.03L7.061 10h3.189A1.75 1.75 0 0012 8.25v-5.5A1.75 1.75 0 0010.25 1h-8.5zM14.5 4.75a.25.25 0 00-.25-.25h-.5a.75.75 0 110-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0114.25 12H14v1.543a1.457 1.457 0 01-2.487 1.03L9.22 12.28a.75.75 0 111.06-1.06l2.22 2.22v-2.19a.75.75 0 01.75-.75h1a.25.25 0 00.25-.25v-5.5z"></path></svg></a>
-						<a href="https://github.com/edupyter/EDUPYTER311/issues" target="_blank" class="ms-2" data-bs-toggle="tooltip" data-bs-placement="top" title="signalement de bogue"><svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill="#3674a9" d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path><path fill="#3674a9" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"></path></svg></a>
+						<a href="https://forge.apps.education.fr/edupyter/EDUPYTER311" target="_blank" class="ms-3" data-bs-toggle="tooltip" data-bs-placement="top" title="code"><svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill="#3674a9" d="M9.424 2.023a.75.75 0 0 1 .556.904L7.48 13.42a.75.75 0 0 1-1.46-.348L8.52 2.58a.75.75 0 0 1 .904-.556ZM11.16 4.22a.75.75 0 0 1 1.06 0l3.25 3.25L16 8l-.53.53-3.25 3.25a.75.75 0 1 1-1.06-1.06L13.88 8l-2.72-2.72a.75.75 0 0 1 0-1.06ZM4.84 5.28a.75.75 0 1 0-1.06-1.06L.53 7.47 0 8l.53.53 3.25 3.25a.75.75 0 0 0 1.06-1.06L2.12 8l2.72-2.72Z" fill="#000"/></svg></a>
+						<a href="https://forge.apps.education.fr/edupyter/EDUPYTER311/-/issues" target="_blank" class="ms-2" data-bs-toggle="tooltip" data-bs-placement="top" title="signalement de bogue"><svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill="#3674a9" d="M3 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h3.25a.75.75 0 0 0 0-1.5H3a.5.5 0 0 1-.5-.5V3a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 .5.5v5.25a.75.75 0 0 0 1.5 0V4.364l2.19 1.14a.25.25 0 0 1 .107.338l-1.072 2.062a.75.75 0 0 0 1.33.692l1.073-2.062a1.75 1.75 0 0 0-.745-2.36l-2.912-1.516A2 2 0 0 0 9 1H3Zm6 12a.75.75 0 0 1 .75-.75h1.5v-1.5a.75.75 0 0 1 1.5 0v1.5h1.5a.75.75 0 0 1 0 1.5h-1.5v1.5a.75.75 0 0 1-1.5 0v-1.5h-1.5A.75.75 0 0 1 9 13Z" fill="#000"/></svg></a>
 					</p>
 				</div>				
 
 				<div class="col-md-2">
 					<h3>EDUPYTER 312</h3>
-					<div class="text-muted font-monospace" style="font-size:70%">avec Python 3.12.2</div>
+					<div class="text-muted font-monospace" style="font-size:70%">avec Python <?php echo $version_312 ?></div>
 					<div class="text-danger font-monospace" style="font-size:70%">pour Windows 8.1 et plus</div>
 					<!--<div class="text-warning font-monospace" style="font-size:70%">EXPÉRIMENTAL - TOUTES LES BIBLIOTHÈQUES<br />NE SONT PAS PRÊTES POUR PYTHON 3.10</div>-->
 					<p class="mt-2">
 						<a href="<?php echo $download_312; ?>" class="btn btn-download btn-xs mt-2"><svg viewBox="0 0 512 512" version="1.1" width="16" height="16" aria-hidden="true"><path fill="#6c757d" d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z"></path></svg></a>
-						<a href="https://github.com/edupyter/EDUPYTER312/releases" target="_blank" class="ms-3" data-bs-toggle="tooltip" data-bs-placement="top" title="versions"><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true"><path fill-rule="evenodd" fill="#3674a9" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"></path></svg></a>
-						<a href="https://github.com/edupyter/EDUPYTER312/discussions" target="_blank" class="ms-2" data-bs-toggle="tooltip" data-bs-placement="top" title="discussions"><svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill="#3674a9" d="M1.5 2.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v5.5a.25.25 0 01-.25.25h-3.5a.75.75 0 00-.53.22L3.5 11.44V9.25a.75.75 0 00-.75-.75h-1a.25.25 0 01-.25-.25v-5.5zM1.75 1A1.75 1.75 0 000 2.75v5.5C0 9.216.784 10 1.75 10H2v1.543a1.457 1.457 0 002.487 1.03L7.061 10h3.189A1.75 1.75 0 0012 8.25v-5.5A1.75 1.75 0 0010.25 1h-8.5zM14.5 4.75a.25.25 0 00-.25-.25h-.5a.75.75 0 110-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0114.25 12H14v1.543a1.457 1.457 0 01-2.487 1.03L9.22 12.28a.75.75 0 111.06-1.06l2.22 2.22v-2.19a.75.75 0 01.75-.75h1a.25.25 0 00.25-.25v-5.5z"></path></svg></a>
-						<a href="https://github.com/edupyter/EDUPYTER312/issues" target="_blank" class="ms-2" data-bs-toggle="tooltip" data-bs-placement="top" title="signalement de bogue"><svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill="#3674a9" d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path><path fill="#3674a9" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"></path></svg></a>
+						<a href="https://forge.apps.education.fr/edupyter/EDUPYTER312" target="_blank" class="ms-3" data-bs-toggle="tooltip" data-bs-placement="top" title="code"><svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill="#3674a9" d="M9.424 2.023a.75.75 0 0 1 .556.904L7.48 13.42a.75.75 0 0 1-1.46-.348L8.52 2.58a.75.75 0 0 1 .904-.556ZM11.16 4.22a.75.75 0 0 1 1.06 0l3.25 3.25L16 8l-.53.53-3.25 3.25a.75.75 0 1 1-1.06-1.06L13.88 8l-2.72-2.72a.75.75 0 0 1 0-1.06ZM4.84 5.28a.75.75 0 1 0-1.06-1.06L.53 7.47 0 8l.53.53 3.25 3.25a.75.75 0 0 0 1.06-1.06L2.12 8l2.72-2.72Z" fill="#000"/></svg></a>
+						<a href="https://forge.apps.education.fr/edupyter/EDUPYTER312/-/issues" target="_blank" class="ms-2" data-bs-toggle="tooltip" data-bs-placement="top" title="signalement de bogue"><svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill="#3674a9" d="M3 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h3.25a.75.75 0 0 0 0-1.5H3a.5.5 0 0 1-.5-.5V3a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 .5.5v5.25a.75.75 0 0 0 1.5 0V4.364l2.19 1.14a.25.25 0 0 1 .107.338l-1.072 2.062a.75.75 0 0 0 1.33.692l1.073-2.062a1.75 1.75 0 0 0-.745-2.36l-2.912-1.516A2 2 0 0 0 9 1H3Zm6 12a.75.75 0 0 1 .75-.75h1.5v-1.5a.75.75 0 0 1 1.5 0v1.5h1.5a.75.75 0 0 1 0 1.5h-1.5v1.5a.75.75 0 0 1-1.5 0v-1.5h-1.5A.75.75 0 0 1 9 13Z" fill="#000"/></svg></a>
 					</p>
 				</div>	
 
 				<div class="col-md-2">
-					<a class="btn btn-doc btn-xs mt-2" href="mailto:contact@edupyter.net" target="_blank" role="button">
-						<svg xmlns="http://www.w3.org/2000/svg" width="16" fill="currentColor" viewBox="0 0 512 512" role="img" class="me-2" style="float:left;">
-							<path fill="#27ae60" d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"></path>
-						</svg>
-						<div style="margin-left:25px;">Besoin d'une autre version?<br />&#10141; contact@edupyter.net</div>
-					</a>
+					<h3>EDUPYTER 313</h3>
+					<div class="text-muted font-monospace" style="font-size:70%">avec Python <?php echo $version_313 ?></div>
+					<div class="text-danger font-monospace" style="font-size:70%">pour Windows 8.1 et plus</div>
+					<!--<div class="text-warning font-monospace" style="font-size:70%">EXPÉRIMENTAL - TOUTES LES BIBLIOTHÈQUES<br />NE SONT PAS PRÊTES POUR PYTHON 3.10</div>-->
+					<p class="mt-2">
+						<a href="<?php echo $download_313; ?>" class="btn btn-download btn-xs mt-2"><svg viewBox="0 0 512 512" version="1.1" width="16" height="16" aria-hidden="true"><path fill="#6c757d" d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z"></path></svg></a>
+						<a href="https://forge.apps.education.fr/edupyter/EDUPYTER313" target="_blank" class="ms-3" data-bs-toggle="tooltip" data-bs-placement="top" title="code"><svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill="#3674a9" d="M9.424 2.023a.75.75 0 0 1 .556.904L7.48 13.42a.75.75 0 0 1-1.46-.348L8.52 2.58a.75.75 0 0 1 .904-.556ZM11.16 4.22a.75.75 0 0 1 1.06 0l3.25 3.25L16 8l-.53.53-3.25 3.25a.75.75 0 1 1-1.06-1.06L13.88 8l-2.72-2.72a.75.75 0 0 1 0-1.06ZM4.84 5.28a.75.75 0 1 0-1.06-1.06L.53 7.47 0 8l.53.53 3.25 3.25a.75.75 0 0 0 1.06-1.06L2.12 8l2.72-2.72Z" fill="#000"/></svg></a>
+						<a href="https://forge.apps.education.fr/edupyter/EDUPYTER313/-/issues" target="_blank" class="ms-2" data-bs-toggle="tooltip" data-bs-placement="top" title="signalement de bogue"><svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill="#3674a9" d="M3 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h3.25a.75.75 0 0 0 0-1.5H3a.5.5 0 0 1-.5-.5V3a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 .5.5v5.25a.75.75 0 0 0 1.5 0V4.364l2.19 1.14a.25.25 0 0 1 .107.338l-1.072 2.062a.75.75 0 0 0 1.33.692l1.073-2.062a1.75 1.75 0 0 0-.745-2.36l-2.912-1.516A2 2 0 0 0 9 1H3Zm6 12a.75.75 0 0 1 .75-.75h1.5v-1.5a.75.75 0 0 1 1.5 0v1.5h1.5a.75.75 0 0 1 0 1.5h-1.5v1.5a.75.75 0 0 1-1.5 0v-1.5h-1.5A.75.75 0 0 1 9 13Z" fill="#000"/></svg></a>
+					</p>
 				</div>
 
 			</div>
@@ -127,24 +125,40 @@
 
 		<div class="container mt-5">
 			<div class="row">
-				<div class="col-md-10">
-					<h4 class="font-monospace">Applications</h4>
-					<p class="font-monospace small text-muted">Python 3.8.x / 3.9.x / 3.10.x / 3.11.x / 3.12.x - PIP - JupyterLab - Jupyter Notebook - Thonny - Console...</p>
-				</div>
-				<div class="col-md-2">
-					<a class="btn btn-doc btn-xs mt-2" href="https://edupyter.github.io/documentation/ajouter_app/" target="_blank" role="button">
+				<div class="col-md-12 text-center">
+	
+					<a class="btn btn-doc btn-xs me-2" href="https://edupyter.github.io/documentation/ajouter_app/" target="_blank" role="button">
 						<svg xmlns="http://www.w3.org/2000/svg" width="14" fill="currentColor" viewBox="0 0 448 512" role="img" class="me-2" style="float:left;">
 							<path fill="#27ae60" d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z"></path>
 						</svg>
-						<div style="margin-left:25px;">Comment ajouter une application</div>
+						<div style="margin-left:25px;">Ajouter une application</div>
 					</a>
+
+					<a class="btn btn-doc btn-xs ms-2" href="https://edupyter.github.io/documentation/ajouter_bibliotheque/" target="_blank" role="button">
+						<svg xmlns="http://www.w3.org/2000/svg" width="14" fill="currentColor" viewBox="0 0 448 512" role="img" class="me-2" style="float:left;">
+							<path fill="#27ae60" d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z"></path>
+						</svg>
+						<div style="margin-left:25px;">Ajouter une bibliothèque</div>
+					</a>
+
 				</div>
+			</div>
+		</div>
+
+
+		<div class="container mt-3">
+			<div class="row">
+				<div class="col-md-12">
+					<h4 class="font-monospace">Applications</h4>
+					<p class="font-monospace small text-muted">Python 3.8.x / 3.9.x / 3.10.x / 3.11.x / 3.12.x / 3.13.x - PIP - JupyterLab - Jupyter Notebook - Thonny - Console...</p>
+				</div>
+
 			</div>
 		</div>
 
 		<div class="container mt-3">
 			<div class="row">
-				<div class="col-md-10">
+				<div class="col-md-12">
 					<h4 class="font-monospace">Bibliothèques installées</h4>
 					<p class="font-monospace small text-muted" style="text-align:justify">
 					<?php
@@ -281,23 +295,13 @@ websocket-client               1.7.0
 wheel                          0.43.0
 widgetsnbextension             4.0.10
 ';
-					//$bibliotheques = preg_replace("/\s+[0-9+\.]+[0-9]+/",", ",trim($bibliotheques));
-					$bibliotheques = preg_replace("/\n/",", ",trim($bibliotheques));
-					$bibliotheques = trim($bibliotheques, ", ");
+					
+					$bibliotheques = preg_replace('/\R/', ', ',trim($bibliotheques));
+					$bibliotheques = preg_replace('/\s{2,}/', ' ', trim($bibliotheques));
 					echo $bibliotheques;
 					?>
 					</p>
 				</div>
-
-				<div class="col-md-2">
-					<a class="btn btn-doc btn-xs mt-2" href="https://edupyter.github.io/documentation/ajouter_bibliotheque/" target="_blank" role="button">
-						<svg xmlns="http://www.w3.org/2000/svg" width="14" fill="currentColor" viewBox="0 0 448 512" role="img" class="me-2" style="float:left;">
-							<path fill="#27ae60" d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z"></path>
-						</svg>
-						<div style="margin-left:25px;">Comment ajouter une bibliothèque</div>
-					</a>
-				</div>
-
 			</div>
 		</div>
 
